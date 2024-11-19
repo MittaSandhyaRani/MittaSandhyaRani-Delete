@@ -1,0 +1,7 @@
+-- Let's say we would like to remove a record from our database. We'll
+-- use the `delete` command, together with a `where` clause specifying the
+-- condition that determines whether a record is to be deleted or not.
+-- For instance, the following line deletes all records in 'Animal' with name 'Fido':
+--      delete from Animal where name = 'Fido'
+-- TODO: write a SQL statement that will delete all records in 'Person' with the
+--  firstname value 'Steve'.

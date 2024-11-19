@@ -1,0 +1,7 @@
+-- Let's say that we would like to remove ALL records in a table.
+-- For this, we'd use the `truncate` command. For instance:
+--      truncate table Animal
+-- Truncating a table is generally preferable to dropping and recreating
+-- a table, which may cause issues with foreign keys or triggers associated
+-- with the table.
+-- TODO: Remove all records in the 'Person' table.
